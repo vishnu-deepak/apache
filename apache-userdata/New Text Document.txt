@@ -1,4 +1,4 @@
-yum install httpd -yum
+yum install httpd -y
 systemctl start httpd
 systemctl enable httpd
 ps -ef | grep httpd
